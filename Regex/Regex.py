@@ -132,4 +132,4 @@ while not(choice=='exit' or choice=='EXIT'  or choice=='Exit'):
 
         regex_5()
 
-print('See you in Next assignment')
+print('See you Next')
