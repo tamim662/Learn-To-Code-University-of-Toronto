@@ -1,0 +1,29 @@
+Design a single program with all the following regular expressions using any programming language
+of your choice. Choose the language appropriately. You are not allowed to change the language in
+your future assignments. Copying code is strictly prohibited. Fully or partially copied code from
+Internet or Friend = 0 Mark. However, if you do the code by your own and completed partially you
+will get a decent partial mark.
+1. Design a regular expression that would accept only UIU CSE ID.
+Accept: 011153189 , 011113001 , 011192100
+Not Accept: 012153189 , 011194125, 011192000, 01122123
+2. Design a regular expression that would accept only general complex number format.
+Accept: 3+2i , a+bi , a+i2 , z=a+ib , y = 2+i3
+Not Accept: 3+2 , 2 , i2 , i2+3, 2+a
+3. Design a regular expression that would accept a string with the following criteria.
+i. Start with a digit
+ii. Second character is any capital English alphabet
+iii. Third character cannot be alphabet
+iv. Fourth to rest, combination of both alphabet and character
+Accept: 2D2255655 , 5Z2JOHN , 8X2A2B3C4 , 9Y3
+Not Accept: 2DA2515 , 5C , A25C , 3c4256
+4. Design a regular expression that would accept both integer and floating point number.
+Accept: 2 , 5.25 , +2 , -2.5 , .234 , +.256
+Not Accept: comp , 5.2a , 252. , +a.5
+5. Design the regular expression that would accept password based on the following criteria.
+I.At least eight characters.
+II.At least one uppercase character.
+III.At least one lowercase character.
+IV.At least one number.
+V.Finish with a special character ( @, #, $, &)
+Accept: 2154Ab254@ , AbBCDFE8F$ , 8Xx25154#
+Not Accept: 21514258@ , 8A22541524# , 9Hg225@
